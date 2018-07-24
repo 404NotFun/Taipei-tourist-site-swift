@@ -10,9 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var bar: MyNavigationBar!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        bar = MyNavigationBar(width: view.bounds.width)
+        bar.anchor(to: view)
+        
+        FetchTouristSiteList().makeRequest(forPage: 1).done({ data -> Void in
+            print(data.results.count)
+        }).catch({ e in
+            print(e)
+        })
     }
 
     override func didReceiveMemoryWarning() {

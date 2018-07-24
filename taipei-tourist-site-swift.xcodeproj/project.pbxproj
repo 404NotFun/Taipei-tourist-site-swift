@@ -48,6 +48,13 @@
 		3CC5682D210791DB00596CDF /* NavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC56828210791DA00596CDF /* NavigationRouter.swift */; };
 		3CC5682E210791DB00596CDF /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC56829210791DA00596CDF /* NavigationController.swift */; };
 		3CC56832210794A500596CDF /* TouristSiteListStoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC56831210794A500596CDF /* TouristSiteListStoreService.swift */; };
+		3CC568342107986F00596CDF /* AppNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC568332107986F00596CDF /* AppNotification.swift */; };
+		3CC5683621079D1600596CDF /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC5683521079D1600596CDF /* NavigationBar.swift */; };
+		3CC5683821079DF500596CDF /* UIButton+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC5683721079DF500596CDF /* UIButton+extension.swift */; };
+		3CC5683B21079E3D00596CDF /* FrontPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC5683A21079E3D00596CDF /* FrontPageViewController.swift */; };
+		3CC5683D21079EBC00596CDF /* AnalyticHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC5683C21079EBC00596CDF /* AnalyticHelper.swift */; };
+		3CC5683F2107A61500596CDF /* UIImage+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC5683E2107A61500596CDF /* UIImage+extension.swift */; };
+		3CC568412107A97300596CDF /* FrontPageBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC568402107A97300596CDF /* FrontPageBuilder.swift */; };
 		BB8FEB4053EE856A52A7DFFC /* Pods_taipei_tourist_site_swiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3742C5D39C5E832990DFAB25 /* Pods_taipei_tourist_site_swiftUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -120,6 +127,13 @@
 		3CC56828210791DA00596CDF /* NavigationRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationRouter.swift; sourceTree = "<group>"; };
 		3CC56829210791DA00596CDF /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		3CC56831210794A500596CDF /* TouristSiteListStoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouristSiteListStoreService.swift; sourceTree = "<group>"; };
+		3CC568332107986F00596CDF /* AppNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNotification.swift; sourceTree = "<group>"; };
+		3CC5683521079D1600596CDF /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		3CC5683721079DF500596CDF /* UIButton+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+extension.swift"; sourceTree = "<group>"; };
+		3CC5683A21079E3D00596CDF /* FrontPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontPageViewController.swift; sourceTree = "<group>"; };
+		3CC5683C21079EBC00596CDF /* AnalyticHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticHelper.swift; sourceTree = "<group>"; };
+		3CC5683E2107A61500596CDF /* UIImage+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+extension.swift"; sourceTree = "<group>"; };
+		3CC568402107A97300596CDF /* FrontPageBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontPageBuilder.swift; sourceTree = "<group>"; };
 		69402B1A5373106A6FFEEE85 /* Pods-taipei-tourist-site-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taipei-tourist-site-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-taipei-tourist-site-swift/Pods-taipei-tourist-site-swift.debug.xcconfig"; sourceTree = "<group>"; };
 		8739FBDC7FC4D8E65B558C8F /* Pods-taipei-tourist-site-swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taipei-tourist-site-swiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-taipei-tourist-site-swiftUITests/Pods-taipei-tourist-site-swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A93AD8E2E9EACEC236C0EB0C /* Pods-taipei-tourist-site-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taipei-tourist-site-swiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-taipei-tourist-site-swiftTests/Pods-taipei-tourist-site-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -252,6 +266,8 @@
 				3CC5681C210788BE00596CDF /* UITableView+extension.swift */,
 				3CC5681E210788EA00596CDF /* NSObject+extension.swift */,
 				3CC5682021078A9100596CDF /* UIViewController+extension.swift */,
+				3CC5683721079DF500596CDF /* UIButton+extension.swift */,
+				3CC5683E2107A61500596CDF /* UIImage+extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -259,6 +275,7 @@
 		3CC567F921077E5000596CDF /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				3CC5683921079E2400596CDF /* FrontPage */,
 				3CC568062107817500596CDF /* Navigation */,
 				3CC567FA21077E9D00596CDF /* TouristSiteList */,
 			);
@@ -306,6 +323,7 @@
 			children = (
 				3CC5680E2107863300596CDF /* PresentModallyNavigationBar.swift */,
 				3CC568142107878000596CDF /* HitTestExtendedView.swift */,
+				3CC5683521079D1600596CDF /* NavigationBar.swift */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -314,8 +332,19 @@
 			isa = PBXGroup;
 			children = (
 				3CC5682321078AC900596CDF /* Queue.swift */,
+				3CC568332107986F00596CDF /* AppNotification.swift */,
+				3CC5683C21079EBC00596CDF /* AnalyticHelper.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3CC5683921079E2400596CDF /* FrontPage */ = {
+			isa = PBXGroup;
+			children = (
+				3CC5683A21079E3D00596CDF /* FrontPageViewController.swift */,
+				3CC568402107A97300596CDF /* FrontPageBuilder.swift */,
+			);
+			path = FrontPage;
 			sourceTree = "<group>";
 		};
 		4D468581ACB976961A5C92F6 /* Pods */ = {
@@ -655,6 +684,7 @@
 				3CC5680121077F9800596CDF /* UiConfig.swift in Sources */,
 				3CC567F321075B6A00596CDF /* NetworkRequestConfig.swift in Sources */,
 				3CC5680321077FF500596CDF /* UIColor+extension.swift in Sources */,
+				3CC568412107A97300596CDF /* FrontPageBuilder.swift in Sources */,
 				3CC56811210786CA00596CDF /* Number+extension.swift in Sources */,
 				3CC5680A2107821D00596CDF /* TouristSiteListInteractor.swift in Sources */,
 				3CC5682D210791DB00596CDF /* NavigationRouter.swift in Sources */,
@@ -666,8 +696,10 @@
 				3CC567EC21074F3400596CDF /* FetchTouristSiteList.swift in Sources */,
 				3CC56832210794A500596CDF /* TouristSiteListStoreService.swift in Sources */,
 				3CC5682121078A9100596CDF /* UIViewController+extension.swift in Sources */,
+				3CC5683621079D1600596CDF /* NavigationBar.swift in Sources */,
 				3CC5680C2107832600596CDF /* TouristSiteListBuilder.swift in Sources */,
 				3CC568152107878000596CDF /* HitTestExtendedView.swift in Sources */,
+				3CC5683D21079EBC00596CDF /* AnalyticHelper.swift in Sources */,
 				3CC5681D210788BE00596CDF /* UITableView+extension.swift in Sources */,
 				3CC56808210781A500596CDF /* NavigationTransitioningDelegate.swift in Sources */,
 				3CC567F12107519100596CDF /* TouristSite.swift in Sources */,
@@ -675,12 +707,16 @@
 				3CC5682E210791DB00596CDF /* NavigationController.swift in Sources */,
 				3CC567F52107614300596CDF /* User.swift in Sources */,
 				3CC5681F210788EA00596CDF /* NSObject+extension.swift in Sources */,
+				3CC568342107986F00596CDF /* AppNotification.swift in Sources */,
 				3CC567F821076CD200596CDF /* Disctionary+extension.swift in Sources */,
 				3CC5682B210791DB00596CDF /* NavigationInteractor.swift in Sources */,
 				3CC567FC21077EB400596CDF /* TouristSiteListViewController.swift in Sources */,
 				3CC56817210787AB00596CDF /* UILabel+extension.swift in Sources */,
+				3CC5683F2107A61500596CDF /* UIImage+extension.swift in Sources */,
 				3CC5681A2107887D00596CDF /* TouristSiteListTableViewCell.swift in Sources */,
+				3CC5683B21079E3D00596CDF /* FrontPageViewController.swift in Sources */,
 				3CC5682C210791DB00596CDF /* NavigationBuilder.swift in Sources */,
+				3CC5683821079DF500596CDF /* UIButton+extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
