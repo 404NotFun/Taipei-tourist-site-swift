@@ -7,7 +7,18 @@
 //
 
 import Foundation
+import TMBase
 
 class HomeRouter: HomeRouterInput {
+    public weak var viewController: UIViewController?
     
+    public init(viewController: UIViewController) {
+        self.viewController = viewController
+    }
+    
+    public func navigateToDetail(with imageCellViewModel: ImageCvCellViewModel) {
+        AnalyticsHelper.shared.enterPreviewTouristSiteDetail()
+        let module = TouristSiteDetailViewController(imageCellViewModel: imageCellViewModel)
+        viewController?.navigationController?.asyncPush(module, animated: true)
+    }
 }

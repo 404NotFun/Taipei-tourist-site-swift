@@ -14,6 +14,7 @@ import TMBase
 protocol HomeViewInput: class {
     func setupInitialState()
     func refreshViewModel(viewModel: HomeViewModel)
-    func refreshTouristSiteResult(result: TouristSiteResult)
-    func loadDataSuccess()
+    func refreshDataResult(msg: String?)
+    func loadMoreData(viewModels: [TouristSiteViewModel])
+    func loadDataResult(msg: String?)
 }

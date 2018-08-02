@@ -19,7 +19,7 @@ class HomeConfigurator {
     
     private func configure(viewController: HomeViewController) {
         let presenter = HomePresenter()
-        let router = HomeRouter()
+        let router = HomeRouter(viewController: viewController)
         let interactor = HomeInteractor()
         
         presenter.view = viewController

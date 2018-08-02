@@ -4,6 +4,7 @@ platform :ios, '8.0'
 
 abstract_target 'Dependency' do
     # pod 'SwiftLint'
+    pod 'SDWebImage'
     pod 'RxSwift', '~> 3.0'
     pod 'RxCocoa', '~> 3.0'
     pod 'Moya/RxSwift', '~> 8.0.0-beta.1'

@@ -14,5 +14,6 @@ import TMBase
  *****/
 protocol HomeInteractorOutput: class {
     func receiveTouristSiteResultData(observable: Observable<TouristSiteResult>)
+    func receiveMoreTouristSite(observable: Observable<TouristSiteResult>)
 //    var homeViewModel: HomeViewModel { get set }
 }

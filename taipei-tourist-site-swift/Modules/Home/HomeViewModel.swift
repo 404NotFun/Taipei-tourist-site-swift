@@ -9,7 +9,7 @@
 import Foundation
 
 final public class HomeViewModel {
-    let listCount: Int
+    var listCount: Int
     let listTitle: String
     var list: [TouristSiteViewModel]
     

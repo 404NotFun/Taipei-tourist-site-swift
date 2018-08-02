@@ -12,6 +12,7 @@ import Foundation
  *****/
 protocol HomeInteractorInput {
     func provideTouristSiteResult(page: Int)
+    func provideMoreTouristSite(page: Int)
 //    func provideBannerData(path: String)
 //    func provideWikiData(department: Int, categoryId: String)
 }

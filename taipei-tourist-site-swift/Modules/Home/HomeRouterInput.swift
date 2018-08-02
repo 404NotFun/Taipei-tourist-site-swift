@@ -7,7 +7,8 @@
 //
 
 import Foundation
+import TMBase
 
 protocol HomeRouterInput {
-    
+    func navigateToDetail(with imageCellViewModel: ImageCvCellViewModel)
 }

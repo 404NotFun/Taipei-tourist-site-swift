@@ -17,4 +17,8 @@ extension HomeInteractor: HomeInteractorInput {
     func provideTouristSiteResult(page: Int) {
         self.output.receiveTouristSiteResultData(observable: TouristSiteDataManager.getTouristSiteList(page: page, limit: 10))
     }
+    
+    func provideMoreTouristSite(page: Int) {
+        self.output.receiveMoreTouristSite(observable: TouristSiteDataManager.getTouristSiteList(page: page, limit: 10))
+    }
 }

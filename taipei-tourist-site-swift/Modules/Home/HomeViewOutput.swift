@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import TMBase
 
 /*****
  * View --> Presenter
@@ -14,4 +15,6 @@ import UIKit
 protocol HomeViewOutput {
     func viewIsReady()
     func reloadData()
+    func loadMoreData(page: Int?)
+    func presentDetail(imageViewModel: ImageCvCellViewModel)
 }

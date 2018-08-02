@@ -33,21 +33,46 @@ extension HomePresenter: HomeViewOutput {
     func reloadData() {
         interactor.provideTouristSiteResult(page: 1)
     }
+    
+    func loadMoreData(page: Int?) {
+        interactor.provideMoreTouristSite(page: page ?? 1)
+    }
+    
+    func presentDetail(imageViewModel: ImageCvCellViewModel) {
+        router.navigateToDetail(with: imageViewModel)
+    }
 }
 
 extension HomePresenter: HomeInteractorOutput {
+    func receiveMoreTouristSite(observable: Observable<TouristSiteResult>) {
+        self.siteResultObservable = observable
+        siteResultObservable
+            .subscribe(onNext: { result in
+                let listVm: [TouristSiteViewModel] = result.results.enumerated().map({(i,e) in
+                    return TouristSiteViewModel(title: e.stitle ?? "未知", content: e.xbody ?? "未知", imageUrls: e.file ?? "", row: i, collapse:  true)
+                })
+                self.view.loadMoreData(viewModels: listVm)
+            }, onError: { error in
+                self.view.loadDataResult(msg: error.localizedDescription)
+            }, onCompleted: {
+                self.view.loadDataResult(msg: nil)
+            }, onDisposed: {
+                
+            }).addDisposableTo(disposebag)
+    }
+    
     func receiveTouristSiteResultData(observable: Observable<TouristSiteResult>) {
         self.siteResultObservable = observable
         siteResultObservable
             .subscribe(onNext: { result in
-                let listVm: [TouristSiteViewModel] = (result.results.map({ TouristSiteViewModel(title: $0.stitle ?? "未知", content: $0.address ?? "未知")}))
+                let listVm: [TouristSiteViewModel] = result.results.enumerated().map({(i,e) in
+                    return TouristSiteViewModel(title: e.stitle ?? "未知", content: e.xbody ?? "未知", imageUrls: e.file ?? "", row: i, collapse: true)
+                })
                 self.view.refreshViewModel(viewModel: HomeViewModel(listCount: listVm.count, listTitle: "台北熱點", list: listVm))
             }, onError: { error in
-                self.view.loadDataSuccess()
-                print("onError I found \(error)!")
+                self.view.refreshDataResult(msg: error.localizedDescription)
             }, onCompleted: {
-                self.view.loadDataSuccess()
-                print("onCompleted")
+                self.view.refreshDataResult(msg: nil)
             }, onDisposed: {
                 
             }).addDisposableTo(disposebag)
