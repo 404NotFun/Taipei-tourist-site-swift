@@ -9,7 +9,6 @@
 import UIKit
 
 public extension UIViewController {
-    
     /// Async present a view controller.
     /// Will be executed in main thread.
     ///

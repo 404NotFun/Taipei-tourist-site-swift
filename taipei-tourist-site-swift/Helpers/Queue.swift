@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import PromiseKit
 
 final public class Queue {
     
@@ -33,17 +32,26 @@ final public class Queue {
         }
     }
     
-    @discardableResult
-    public class func delayInMainQueue(for time: TimeInterval) -> Promise<Void> {
+    
+    public class func delayInMainQueue(for time: TimeInterval) {
         let delay = DispatchTime.now() + time
-        let (promise, fulfill) = Promise<Void>.pending()
         
         Queue.mainQueue().asyncAfter(deadline: delay) {
-            fulfill
+            
         }
-        
-        return promise
     }
+    
+//    @discardableResult
+//    public class func delayInMainQueue(for time: TimeInterval) -> Promise<Void> {
+//        let delay = DispatchTime.now() + time
+//        let (promise, fulfill) = Promise<Void>.pending()
+//
+//        Queue.mainQueue().asyncAfter(deadline: delay) {
+//            fulfill
+//        }
+//
+//        return promise
+//    }
     
     public class func delayInMainQueueFor(_ time: Double, block: @escaping () -> Void) {
         let delay = DispatchTime.now() + Double(Int64(Double(NSEC_PER_SEC) * time)) / Double(NSEC_PER_SEC)
