@@ -42,3 +42,16 @@ public struct AppConfig {
         nav.navigationBar.shadowImage = UIImage()
     }
 }
+
+extension AppDelegate {
+    func appStart() {
+        UINavigationBar.appearance().isTranslucent = false
+        
+        let homeVC = HomeViewController()
+        let naviVC = UINavigationController(rootViewController: homeVC)
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window?.rootViewController = naviVC
+        self.window?.makeKeyAndVisible()
+    }
+}

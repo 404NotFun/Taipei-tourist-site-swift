@@ -28,6 +28,7 @@ abstract_target 'Dependency' do
         pod 'PullToRefresher', '~> 2.0'
         pod 'Fabric'
         pod 'Crashlytics'
+        pod 'GoogleAnalytics'
     end
     
     target 'TMBase' do

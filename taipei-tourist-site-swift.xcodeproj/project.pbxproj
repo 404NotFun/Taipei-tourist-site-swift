@@ -26,6 +26,8 @@
 		3CA78F37211358DB00A2501C /* AnalyticsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA78F36211358DB00A2501C /* AnalyticsHelper.swift */; };
 		3CA78F3A211359BF00A2501C /* TouristSiteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA78F39211359BF00A2501C /* TouristSiteDetailViewController.swift */; };
 		3CA78F3C2113615400A2501C /* UINavigationController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA78F3B2113615400A2501C /* UINavigationController+extension.swift */; };
+		3CA78F3E2114093200A2501C /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA78F3D2114093200A2501C /* AlertHelper.swift */; };
+		3CA78F4021140F5C00A2501C /* AnalyticConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA78F3F21140F5C00A2501C /* AnalyticConfig.swift */; };
 		3CBE722E2111F1CB00233DA8 /* OCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBE722D2111F1CB00233DA8 /* OCHelper.m */; };
 		3CC567BA21074C2900596CDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC567B921074C2900596CDF /* AppDelegate.swift */; };
 		3CC567BC21074C2900596CDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC567BB21074C2900596CDF /* ViewController.swift */; };
@@ -96,6 +98,8 @@
 		3CA78F36211358DB00A2501C /* AnalyticsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsHelper.swift; sourceTree = "<group>"; };
 		3CA78F39211359BF00A2501C /* TouristSiteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouristSiteDetailViewController.swift; sourceTree = "<group>"; };
 		3CA78F3B2113615400A2501C /* UINavigationController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+extension.swift"; sourceTree = "<group>"; };
+		3CA78F3D2114093200A2501C /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		3CA78F3F21140F5C00A2501C /* AnalyticConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticConfig.swift; sourceTree = "<group>"; };
 		3CBE722C2111F1CA00233DA8 /* taipei-tourist-site-swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "taipei-tourist-site-swift-Bridging-Header.h"; sourceTree = "<group>"; };
 		3CBE722D2111F1CB00233DA8 /* OCHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCHelper.m; sourceTree = "<group>"; };
 		3CBE722F2111F1DF00233DA8 /* OCHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCHelper.h; sourceTree = "<group>"; };
@@ -193,13 +197,6 @@
 			path = Widgets;
 			sourceTree = "<group>";
 		};
-		3C396630210C1484009BE405 /* Enums */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Enums;
-			sourceTree = "<group>";
-		};
 		3C852247210B64C30075A50D /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,6 +212,7 @@
 				3CBE722C2111F1CA00233DA8 /* taipei-tourist-site-swift-Bridging-Header.h */,
 				3CC567B921074C2900596CDF /* AppDelegate.swift */,
 				3C39662C210C0E63009BE405 /* AppConfig.swift */,
+				3CA78F3F21140F5C00A2501C /* AnalyticConfig.swift */,
 			);
 			path = Configs;
 			sourceTree = "<group>";
@@ -262,7 +260,6 @@
 			isa = PBXGroup;
 			children = (
 				3CA78F2E2111FC4A00A2501C /* Utils */,
-				3C396630210C1484009BE405 /* Enums */,
 				3C396625210C0D74009BE405 /* Widgets */,
 				3C852248210B64D20075A50D /* Configs */,
 				3C852247210B64C30075A50D /* Storyboards */,
@@ -330,6 +327,7 @@
 				3CBE722D2111F1CB00233DA8 /* OCHelper.m */,
 				3CBE722F2111F1DF00233DA8 /* OCHelper.h */,
 				3CA78F36211358DB00A2501C /* AnalyticsHelper.swift */,
+				3CA78F3D2114093200A2501C /* AlertHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -721,11 +719,13 @@
 				3CC5682421078AC900596CDF /* Queue.swift in Sources */,
 				3CC5682121078A9100596CDF /* UIViewController+extension.swift in Sources */,
 				3C1F1F29210B221800175535 /* HomePresenter.swift in Sources */,
+				3CA78F3E2114093200A2501C /* AlertHelper.swift in Sources */,
 				3CC5681D210788BE00596CDF /* UITableView+extension.swift in Sources */,
 				3CC5681F210788EA00596CDF /* NSObject+extension.swift in Sources */,
 				3C1F1F3A210B27AC00175535 /* HomeInteractorOutput.swift in Sources */,
 				3CC567F821076CD200596CDF /* Disctionary+extension.swift in Sources */,
 				3CC56817210787AB00596CDF /* UILabel+extension.swift in Sources */,
+				3CA78F4021140F5C00A2501C /* AnalyticConfig.swift in Sources */,
 				3C1F1F38210B279800175535 /* HomeInteractorInput.swift in Sources */,
 				3C39662D210C0E63009BE405 /* AppConfig.swift in Sources */,
 				3CD12F3E21109F380060B4D2 /* Collection+extension.swift in Sources */,

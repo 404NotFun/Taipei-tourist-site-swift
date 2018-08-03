@@ -17,7 +17,6 @@ class HomeRouter: HomeRouterInput {
     }
     
     public func navigateToDetail(with imageCellViewModel: ImageCvCellViewModel) {
-        AnalyticsHelper.shared.enterPreviewTouristSiteDetail()
         let module = TouristSiteDetailViewController(imageCellViewModel: imageCellViewModel)
         viewController?.navigationController?.asyncPush(module, animated: true)
     }

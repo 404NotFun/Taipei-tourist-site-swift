@@ -36,6 +36,7 @@ public class TouristSiteDetailViewController: UIViewController {
     
     override public func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        AnalyticsHelper.shared.enterTouristSiteDetailScreen()
         func initNaviBar() {
             if let naviVC = self.navigationController {
                 AppConfig.setNavigationBarThemeDefault(naviVC)

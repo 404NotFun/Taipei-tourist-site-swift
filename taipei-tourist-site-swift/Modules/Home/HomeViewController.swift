@@ -45,6 +45,7 @@ public class HomeViewController: UIViewController {
             tableView.backgroundColor = .white
             loadMore.position = .bottom
             tableView.addPullToRefresh(refresher) { [weak self] in
+                AnalyticsHelper.shared.scroll2Refresh()
                 self?.output.reloadData()
             }
             tableView.addPullToRefresh(loadMore) { [weak self] in
@@ -52,6 +53,7 @@ public class HomeViewController: UIViewController {
                     self?.current+=1
                     self?.output.loadMoreData(page: self?.current)
                 }else {
+                    AnalyticsHelper.shared.scroll2LoadMore()
                     self?.tableView.endRefreshing(at: .bottom)
                 }
             }
@@ -64,6 +66,7 @@ public class HomeViewController: UIViewController {
     
     override public func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        AnalyticsHelper.shared.enterHomeScreen()
         func initNaviBar() {
             if let naviVC = self.navigationController {
                 AppConfig.setNavigationBarThemeDefault(naviVC)
@@ -111,10 +114,16 @@ extension HomeViewController: HomeViewInput {
     }
     
     func refreshDataResult(msg: String?) {
+        if let msg = msg {
+            AlertHelper.show(vc: self, msg: msg)
+        }
         tableView.endRefreshing(at: Position.top)
     }
     
     func loadDataResult(msg: String?) {
+        if let msg = msg {
+            AlertHelper.show(vc: self, msg: msg)
+        }
         tableView.endRefreshing(at: Position.bottom)
     }
 }
@@ -193,6 +202,7 @@ extension HomeViewController: ExpandableLabelDelegate {
     }
     
     public func willExpandLabel(_ label: ExpandableLabel) {
+        AnalyticsHelper.shared.expand2ReadMore()
         tableView.beginUpdates()
     }
     
