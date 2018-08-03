@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C1F1F27210B21C800175535 /* HomeConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F1F26210B21C800175535 /* HomeConfigurator.swift */; };
+		3C1F1F29210B221800175535 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F1F28210B221800175535 /* HomePresenter.swift */; };
+		3C1F1F2B210B23E400175535 /* HomeInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F1F2A210B23E400175535 /* HomeInput.swift */; };
+		3C1F1F2D210B243300175535 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F1F2C210B243300175535 /* HomeViewController.swift */; };
+		3C1F1F2F210B243C00175535 /* HomeViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F1F2E210B243C00175535 /* HomeViewInput.swift */; };
+		3C1F1F31210B244F00175535 /* HomeViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F1F30210B244F00175535 /* HomeViewOutput.swift */; };
+		3C1F1F36210B276400175535 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F1F35210B276400175535 /* HomeInteractor.swift */; };
+		3C1F1F38210B279800175535 /* HomeInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F1F37210B279800175535 /* HomeInteractorInput.swift */; };
+		3C1F1F3A210B27AC00175535 /* HomeInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F1F39210B27AC00175535 /* HomeInteractorOutput.swift */; };
+		3C396628210C0D8D009BE405 /* TouristSiteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C396626210C0D8D009BE405 /* TouristSiteTableViewCell.swift */; };
+		3C396629210C0D8D009BE405 /* TouristSiteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C396627210C0D8D009BE405 /* TouristSiteTableViewCell.xib */; };
+		3C39662D210C0E63009BE405 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C39662C210C0E63009BE405 /* AppConfig.swift */; };
+		3C3F0A42210F5FD900E2ED60 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3F0A41210F5FD900E2ED60 /* HomeViewModel.swift */; };
+		3C852244210B5FE20075A50D /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C852243210B5FE20075A50D /* HomeRouter.swift */; };
+		3C852246210B5FED0075A50D /* HomeRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C852245210B5FED0075A50D /* HomeRouterInput.swift */; };
+		3CA78F302111FC6800A2501C /* ExpandableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA78F2F2111FC6800A2501C /* ExpandableLabel.swift */; };
+		3CA78F37211358DB00A2501C /* AnalyticsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA78F36211358DB00A2501C /* AnalyticsHelper.swift */; };
+		3CA78F3A211359BF00A2501C /* TouristSiteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA78F39211359BF00A2501C /* TouristSiteDetailViewController.swift */; };
+		3CA78F3C2113615400A2501C /* UINavigationController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA78F3B2113615400A2501C /* UINavigationController+extension.swift */; };
+		3CA78F3E2114093200A2501C /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA78F3D2114093200A2501C /* AlertHelper.swift */; };
+		3CA78F4021140F5C00A2501C /* AnalyticConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA78F3F21140F5C00A2501C /* AnalyticConfig.swift */; };
+		3CBE722E2111F1CB00233DA8 /* OCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBE722D2111F1CB00233DA8 /* OCHelper.m */; };
 		3CC567BA21074C2900596CDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC567B921074C2900596CDF /* AppDelegate.swift */; };
 		3CC567BC21074C2900596CDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC567BB21074C2900596CDF /* ViewController.swift */; };
 		3CC567BF21074C2900596CDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC567BD21074C2900596CDF /* Main.storyboard */; };
@@ -14,6 +36,25 @@
 		3CC567C421074C2900596CDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC567C221074C2900596CDF /* LaunchScreen.storyboard */; };
 		3CC567CF21074C2900596CDF /* taipei_tourist_site_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC567CE21074C2900596CDF /* taipei_tourist_site_swiftTests.swift */; };
 		3CC567DA21074C2900596CDF /* taipei_tourist_site_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC567D921074C2900596CDF /* taipei_tourist_site_swiftUITests.swift */; };
+		3CC567E821074D0D00596CDF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 3CC567E721074D0D00596CDF /* Podfile */; };
+		3CC567F821076CD200596CDF /* Disctionary+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC567F721076CD200596CDF /* Disctionary+extension.swift */; };
+		3CC5680321077FF500596CDF /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC5680221077FF500596CDF /* UIColor+extension.swift */; };
+		3CC56811210786CA00596CDF /* Number+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC56810210786CA00596CDF /* Number+extension.swift */; };
+		3CC568132107870F00596CDF /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC568122107870F00596CDF /* UIView+extension.swift */; };
+		3CC56817210787AB00596CDF /* UILabel+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC56816210787AB00596CDF /* UILabel+extension.swift */; };
+		3CC5681D210788BE00596CDF /* UITableView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC5681C210788BE00596CDF /* UITableView+extension.swift */; };
+		3CC5681F210788EA00596CDF /* NSObject+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC5681E210788EA00596CDF /* NSObject+extension.swift */; };
+		3CC5682121078A9100596CDF /* UIViewController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC5682021078A9100596CDF /* UIViewController+extension.swift */; };
+		3CC5682421078AC900596CDF /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC5682321078AC900596CDF /* Queue.swift */; };
+		3CD12F3421108C3D0060B4D2 /* ViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD12F3321108C3D0060B4D2 /* ViewHelper.swift */; };
+		3CD12F3721108D9E0060B4D2 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD12F3521108D9E0060B4D2 /* ImageCollectionViewCell.swift */; };
+		3CD12F3821108D9E0060B4D2 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CD12F3621108D9E0060B4D2 /* ImageCollectionViewCell.xib */; };
+		3CD12F3A211099BB0060B4D2 /* TtsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD12F39211099BB0060B4D2 /* TtsHelper.swift */; };
+		3CD12F3C21109BD70060B4D2 /* UICollectionView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD12F3B21109BD70060B4D2 /* UICollectionView+extension.swift */; };
+		3CD12F3E21109F380060B4D2 /* Collection+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD12F3D21109F380060B4D2 /* Collection+extension.swift */; };
+		8203766C0946CE9BD2B4E1AA /* Pods_taipei_tourist_site_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7F7C116321A657BCE9E5C8 /* Pods_taipei_tourist_site_swiftTests.framework */; };
+		91619C0DF0ED14A8171F73C0 /* Pods_Dependency_taipei_tourist_site_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EE63EA1E02B3CB0C66F2169 /* Pods_Dependency_taipei_tourist_site_swift.framework */; };
+		B055537D17BC2F5D30DBF39F /* Pods_taipei_tourist_site_swiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B704B90DC8BCC90A61FD5BD /* Pods_taipei_tourist_site_swiftUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +75,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042FFB07D8BB909A4788B9D0 /* Pods-taipei-tourist-site-swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taipei-tourist-site-swiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-taipei-tourist-site-swiftUITests/Pods-taipei-tourist-site-swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2AAB38FDD5FE020324915B16 /* Pods-taipei-tourist-site-swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taipei-tourist-site-swiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-taipei-tourist-site-swiftTests/Pods-taipei-tourist-site-swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2EE63EA1E02B3CB0C66F2169 /* Pods_Dependency_taipei_tourist_site_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dependency_taipei_tourist_site_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F38D759D5EA7C80EF48D133 /* Pods-Dependency-taipei-tourist-site-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dependency-taipei-tourist-site-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dependency-taipei-tourist-site-swift/Pods-Dependency-taipei-tourist-site-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		3C1F1F26210B21C800175535 /* HomeConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeConfigurator.swift; sourceTree = "<group>"; };
+		3C1F1F28210B221800175535 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		3C1F1F2A210B23E400175535 /* HomeInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInput.swift; sourceTree = "<group>"; };
+		3C1F1F2C210B243300175535 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3C1F1F2E210B243C00175535 /* HomeViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewInput.swift; sourceTree = "<group>"; };
+		3C1F1F30210B244F00175535 /* HomeViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewOutput.swift; sourceTree = "<group>"; };
+		3C1F1F35210B276400175535 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		3C1F1F37210B279800175535 /* HomeInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractorInput.swift; sourceTree = "<group>"; };
+		3C1F1F39210B27AC00175535 /* HomeInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractorOutput.swift; sourceTree = "<group>"; };
+		3C396626210C0D8D009BE405 /* TouristSiteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouristSiteTableViewCell.swift; sourceTree = "<group>"; };
+		3C396627210C0D8D009BE405 /* TouristSiteTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TouristSiteTableViewCell.xib; sourceTree = "<group>"; };
+		3C39662C210C0E63009BE405 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		3C3F0A41210F5FD900E2ED60 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		3C852243210B5FE20075A50D /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		3C852245210B5FED0075A50D /* HomeRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouterInput.swift; sourceTree = "<group>"; };
+		3CA78F2F2111FC6800A2501C /* ExpandableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableLabel.swift; sourceTree = "<group>"; };
+		3CA78F36211358DB00A2501C /* AnalyticsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsHelper.swift; sourceTree = "<group>"; };
+		3CA78F39211359BF00A2501C /* TouristSiteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouristSiteDetailViewController.swift; sourceTree = "<group>"; };
+		3CA78F3B2113615400A2501C /* UINavigationController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+extension.swift"; sourceTree = "<group>"; };
+		3CA78F3D2114093200A2501C /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		3CA78F3F21140F5C00A2501C /* AnalyticConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticConfig.swift; sourceTree = "<group>"; };
+		3CBE722C2111F1CA00233DA8 /* taipei-tourist-site-swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "taipei-tourist-site-swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		3CBE722D2111F1CB00233DA8 /* OCHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCHelper.m; sourceTree = "<group>"; };
+		3CBE722F2111F1DF00233DA8 /* OCHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCHelper.h; sourceTree = "<group>"; };
 		3CC567B621074C2900596CDF /* taipei-tourist-site-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "taipei-tourist-site-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CC567B921074C2900596CDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CC567BB21074C2900596CDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +116,27 @@
 		3CC567D521074C2900596CDF /* taipei-tourist-site-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "taipei-tourist-site-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CC567D921074C2900596CDF /* taipei_tourist_site_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taipei_tourist_site_swiftUITests.swift; sourceTree = "<group>"; };
 		3CC567DB21074C2900596CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CC567E721074D0D00596CDF /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3CC567F721076CD200596CDF /* Disctionary+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Disctionary+extension.swift"; sourceTree = "<group>"; };
+		3CC5680221077FF500596CDF /* UIColor+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
+		3CC56810210786CA00596CDF /* Number+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Number+extension.swift"; sourceTree = "<group>"; };
+		3CC568122107870F00596CDF /* UIView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
+		3CC56816210787AB00596CDF /* UILabel+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+extension.swift"; sourceTree = "<group>"; };
+		3CC5681C210788BE00596CDF /* UITableView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+extension.swift"; sourceTree = "<group>"; };
+		3CC5681E210788EA00596CDF /* NSObject+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+extension.swift"; sourceTree = "<group>"; };
+		3CC5682021078A9100596CDF /* UIViewController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+extension.swift"; sourceTree = "<group>"; };
+		3CC5682321078AC900596CDF /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		3CD12F3321108C3D0060B4D2 /* ViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHelper.swift; sourceTree = "<group>"; };
+		3CD12F3521108D9E0060B4D2 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		3CD12F3621108D9E0060B4D2 /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		3CD12F39211099BB0060B4D2 /* TtsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TtsHelper.swift; sourceTree = "<group>"; };
+		3CD12F3B21109BD70060B4D2 /* UICollectionView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+extension.swift"; sourceTree = "<group>"; };
+		3CD12F3D21109F380060B4D2 /* Collection+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+extension.swift"; sourceTree = "<group>"; };
+		8739FBDC7FC4D8E65B558C8F /* Pods-taipei-tourist-site-swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taipei-tourist-site-swiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-taipei-tourist-site-swiftUITests/Pods-taipei-tourist-site-swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B704B90DC8BCC90A61FD5BD /* Pods_taipei_tourist_site_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taipei_tourist_site_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D295104998B2B55E3146DA5 /* Pods-Dependency-taipei-tourist-site-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dependency-taipei-tourist-site-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dependency-taipei-tourist-site-swift/Pods-Dependency-taipei-tourist-site-swift.release.xcconfig"; sourceTree = "<group>"; };
+		A93AD8E2E9EACEC236C0EB0C /* Pods-taipei-tourist-site-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taipei-tourist-site-swiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-taipei-tourist-site-swiftTests/Pods-taipei-tourist-site-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		EF7F7C116321A657BCE9E5C8 /* Pods_taipei_tourist_site_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taipei_tourist_site_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91619C0DF0ED14A8171F73C0 /* Pods_Dependency_taipei_tourist_site_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8203766C0946CE9BD2B4E1AA /* Pods_taipei_tourist_site_swiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +160,89 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B055537D17BC2F5D30DBF39F /* Pods_taipei_tourist_site_swiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C1F1F25210B21AE00175535 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3C1F1F26210B21C800175535 /* HomeConfigurator.swift */,
+				3C1F1F2C210B243300175535 /* HomeViewController.swift */,
+				3C3F0A41210F5FD900E2ED60 /* HomeViewModel.swift */,
+				3C1F1F2E210B243C00175535 /* HomeViewInput.swift */,
+				3C1F1F30210B244F00175535 /* HomeViewOutput.swift */,
+				3C1F1F28210B221800175535 /* HomePresenter.swift */,
+				3C1F1F35210B276400175535 /* HomeInteractor.swift */,
+				3C1F1F37210B279800175535 /* HomeInteractorInput.swift */,
+				3C1F1F39210B27AC00175535 /* HomeInteractorOutput.swift */,
+				3C1F1F2A210B23E400175535 /* HomeInput.swift */,
+				3C852243210B5FE20075A50D /* HomeRouter.swift */,
+				3C852245210B5FED0075A50D /* HomeRouterInput.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3C396625210C0D74009BE405 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				3C396626210C0D8D009BE405 /* TouristSiteTableViewCell.swift */,
+				3C396627210C0D8D009BE405 /* TouristSiteTableViewCell.xib */,
+				3CD12F3521108D9E0060B4D2 /* ImageCollectionViewCell.swift */,
+				3CD12F3621108D9E0060B4D2 /* ImageCollectionViewCell.xib */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		3C852247210B64C30075A50D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3CC567BD21074C2900596CDF /* Main.storyboard */,
+				3CC567C221074C2900596CDF /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3C852248210B64D20075A50D /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				3CBE722C2111F1CA00233DA8 /* taipei-tourist-site-swift-Bridging-Header.h */,
+				3CC567B921074C2900596CDF /* AppDelegate.swift */,
+				3C39662C210C0E63009BE405 /* AppConfig.swift */,
+				3CA78F3F21140F5C00A2501C /* AnalyticConfig.swift */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		3CA78F2E2111FC4A00A2501C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3CA78F2F2111FC6800A2501C /* ExpandableLabel.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3CA78F38211359A900A2501C /* TouristSiteDetail */ = {
+			isa = PBXGroup;
+			children = (
+				3CA78F39211359BF00A2501C /* TouristSiteDetailViewController.swift */,
+			);
+			path = TouristSiteDetail;
+			sourceTree = "<group>";
+		};
 		3CC567AD21074C2900596CDF = {
 			isa = PBXGroup;
 			children = (
+				3CC567E721074D0D00596CDF /* Podfile */,
 				3CC567B821074C2900596CDF /* taipei-tourist-site-swift */,
 				3CC567CD21074C2900596CDF /* taipei-tourist-site-swiftTests */,
 				3CC567D821074C2900596CDF /* taipei-tourist-site-swiftUITests */,
 				3CC567B721074C2900596CDF /* Products */,
+				4D468581ACB976961A5C92F6 /* Pods */,
+				5A79FB97CE3AA4F34348E346 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +259,15 @@
 		3CC567B821074C2900596CDF /* taipei-tourist-site-swift */ = {
 			isa = PBXGroup;
 			children = (
-				3CC567B921074C2900596CDF /* AppDelegate.swift */,
+				3CA78F2E2111FC4A00A2501C /* Utils */,
+				3C396625210C0D74009BE405 /* Widgets */,
+				3C852248210B64D20075A50D /* Configs */,
+				3C852247210B64C30075A50D /* Storyboards */,
+				3CC5682221078ABA00596CDF /* Helpers */,
+				3CC567F621076CBB00596CDF /* Extensions */,
+				3CC567F921077E5000596CDF /* Modules */,
 				3CC567BB21074C2900596CDF /* ViewController.swift */,
-				3CC567BD21074C2900596CDF /* Main.storyboard */,
 				3CC567C021074C2900596CDF /* Assets.xcassets */,
-				3CC567C221074C2900596CDF /* LaunchScreen.storyboard */,
 				3CC567C521074C2900596CDF /* Info.plist */,
 			);
 			path = "taipei-tourist-site-swift";
@@ -125,6 +291,70 @@
 			path = "taipei-tourist-site-swiftUITests";
 			sourceTree = "<group>";
 		};
+		3CC567F621076CBB00596CDF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3CC567F721076CD200596CDF /* Disctionary+extension.swift */,
+				3CC5680221077FF500596CDF /* UIColor+extension.swift */,
+				3CC56810210786CA00596CDF /* Number+extension.swift */,
+				3CC568122107870F00596CDF /* UIView+extension.swift */,
+				3CC56816210787AB00596CDF /* UILabel+extension.swift */,
+				3CC5681C210788BE00596CDF /* UITableView+extension.swift */,
+				3CC5681E210788EA00596CDF /* NSObject+extension.swift */,
+				3CC5682021078A9100596CDF /* UIViewController+extension.swift */,
+				3CD12F3B21109BD70060B4D2 /* UICollectionView+extension.swift */,
+				3CD12F3D21109F380060B4D2 /* Collection+extension.swift */,
+				3CA78F3B2113615400A2501C /* UINavigationController+extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3CC567F921077E5000596CDF /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				3CA78F38211359A900A2501C /* TouristSiteDetail */,
+				3C1F1F25210B21AE00175535 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		3CC5682221078ABA00596CDF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3CC5682321078AC900596CDF /* Queue.swift */,
+				3CD12F3321108C3D0060B4D2 /* ViewHelper.swift */,
+				3CD12F39211099BB0060B4D2 /* TtsHelper.swift */,
+				3CBE722D2111F1CB00233DA8 /* OCHelper.m */,
+				3CBE722F2111F1DF00233DA8 /* OCHelper.h */,
+				3CA78F36211358DB00A2501C /* AnalyticsHelper.swift */,
+				3CA78F3D2114093200A2501C /* AlertHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4D468581ACB976961A5C92F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AAB38FDD5FE020324915B16 /* Pods-taipei-tourist-site-swiftTests.debug.xcconfig */,
+				A93AD8E2E9EACEC236C0EB0C /* Pods-taipei-tourist-site-swiftTests.release.xcconfig */,
+				8739FBDC7FC4D8E65B558C8F /* Pods-taipei-tourist-site-swiftUITests.debug.xcconfig */,
+				042FFB07D8BB909A4788B9D0 /* Pods-taipei-tourist-site-swiftUITests.release.xcconfig */,
+				2F38D759D5EA7C80EF48D133 /* Pods-Dependency-taipei-tourist-site-swift.debug.xcconfig */,
+				9D295104998B2B55E3146DA5 /* Pods-Dependency-taipei-tourist-site-swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5A79FB97CE3AA4F34348E346 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EE63EA1E02B3CB0C66F2169 /* Pods_Dependency_taipei_tourist_site_swift.framework */,
+				EF7F7C116321A657BCE9E5C8 /* Pods_taipei_tourist_site_swiftTests.framework */,
+				9B704B90DC8BCC90A61FD5BD /* Pods_taipei_tourist_site_swiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +362,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CC567DE21074C2900596CDF /* Build configuration list for PBXNativeTarget "taipei-tourist-site-swift" */;
 			buildPhases = (
+				20F0C3FFE80B66DA4BCA1A92 /* [CP] Check Pods Manifest.lock */,
 				3CC567B221074C2900596CDF /* Sources */,
 				3CC567B321074C2900596CDF /* Frameworks */,
 				3CC567B421074C2900596CDF /* Resources */,
+				EB73EEC30A9B9D91EAD32A9F /* [CP] Embed Pods Frameworks */,
+				00FE05C2E4605B7C3C082571 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +382,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CC567E121074C2900596CDF /* Build configuration list for PBXNativeTarget "taipei-tourist-site-swiftTests" */;
 			buildPhases = (
+				F9335A5088CDC7AA926EB292 /* [CP] Check Pods Manifest.lock */,
 				3CC567C621074C2900596CDF /* Sources */,
 				3CC567C721074C2900596CDF /* Frameworks */,
 				3CC567C821074C2900596CDF /* Resources */,
+				BE11E85EFF7ADC9C9485F223 /* [CP] Embed Pods Frameworks */,
+				5D7436C69C17477B992B0EA8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +403,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CC567E421074C2900596CDF /* Build configuration list for PBXNativeTarget "taipei-tourist-site-swiftUITests" */;
 			buildPhases = (
+				F32CB50BE5D16EC9DEA0A086 /* [CP] Check Pods Manifest.lock */,
 				3CC567D121074C2900596CDF /* Sources */,
 				3CC567D221074C2900596CDF /* Frameworks */,
 				3CC567D321074C2900596CDF /* Resources */,
+				E17147CD3A96B9B10F09DCB6 /* [CP] Embed Pods Frameworks */,
+				41502C6DDD10C8F228EC63C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +432,7 @@
 				TargetAttributes = {
 					3CC567B521074C2900596CDF = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					3CC567C921074C2900596CDF = {
@@ -234,6 +474,9 @@
 			files = (
 				3CC567C421074C2900596CDF /* LaunchScreen.storyboard in Resources */,
 				3CC567C121074C2900596CDF /* Assets.xcassets in Resources */,
+				3CC567E821074D0D00596CDF /* Podfile in Resources */,
+				3C396629210C0D8D009BE405 /* TouristSiteTableViewCell.xib in Resources */,
+				3CD12F3821108D9E0060B4D2 /* ImageCollectionViewCell.xib in Resources */,
 				3CC567BF21074C2900596CDF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +497,241 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00FE05C2E4605B7C3C082571 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dependency-taipei-tourist-site-swift/Pods-Dependency-taipei-tourist-site-swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20F0C3FFE80B66DA4BCA1A92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dependency-taipei-tourist-site-swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41502C6DDD10C8F228EC63C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-taipei-tourist-site-swiftUITests/Pods-taipei-tourist-site-swiftUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D7436C69C17477B992B0EA8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-taipei-tourist-site-swiftTests/Pods-taipei-tourist-site-swiftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE11E85EFF7ADC9C9485F223 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-taipei-tourist-site-swiftTests/Pods-taipei-tourist-site-swiftTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-taipei-tourist-site-swiftTests/Pods-taipei-tourist-site-swiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E17147CD3A96B9B10F09DCB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-taipei-tourist-site-swiftUITests/Pods-taipei-tourist-site-swiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB73EEC30A9B9D91EAD32A9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Dependency-taipei-tourist-site-swift/Pods-Dependency-taipei-tourist-site-swift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AwesomeCache/AwesomeCache.framework",
+				"${BUILT_PRODUCTS_DIR}/Cell+Rx/Cell_Rx.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya-ObjectMapper/Moya_ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PullToRefresher/PullToRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxOptional/RxOptional.framework",
+				"${BUILT_PRODUCTS_DIR}/RxResult/RxResult.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AwesomeCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cell_Rx.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PullToRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxOptional.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxResult.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dependency-taipei-tourist-site-swift/Pods-Dependency-taipei-tourist-site-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F32CB50BE5D16EC9DEA0A086 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-taipei-tourist-site-swiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9335A5088CDC7AA926EB292 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-taipei-tourist-site-swiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3CC567B221074C2900596CDF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C1F1F36210B276400175535 /* HomeInteractor.swift in Sources */,
+				3CA78F3C2113615400A2501C /* UINavigationController+extension.swift in Sources */,
+				3C1F1F31210B244F00175535 /* HomeViewOutput.swift in Sources */,
+				3CC5680321077FF500596CDF /* UIColor+extension.swift in Sources */,
+				3CD12F3421108C3D0060B4D2 /* ViewHelper.swift in Sources */,
+				3CA78F302111FC6800A2501C /* ExpandableLabel.swift in Sources */,
+				3C1F1F2D210B243300175535 /* HomeViewController.swift in Sources */,
+				3CBE722E2111F1CB00233DA8 /* OCHelper.m in Sources */,
+				3CC56811210786CA00596CDF /* Number+extension.swift in Sources */,
+				3CD12F3721108D9E0060B4D2 /* ImageCollectionViewCell.swift in Sources */,
+				3C1F1F2B210B23E400175535 /* HomeInput.swift in Sources */,
+				3CD12F3A211099BB0060B4D2 /* TtsHelper.swift in Sources */,
+				3C1F1F27210B21C800175535 /* HomeConfigurator.swift in Sources */,
 				3CC567BC21074C2900596CDF /* ViewController.swift in Sources */,
+				3CA78F37211358DB00A2501C /* AnalyticsHelper.swift in Sources */,
+				3C1F1F2F210B243C00175535 /* HomeViewInput.swift in Sources */,
 				3CC567BA21074C2900596CDF /* AppDelegate.swift in Sources */,
+				3CC568132107870F00596CDF /* UIView+extension.swift in Sources */,
+				3C3F0A42210F5FD900E2ED60 /* HomeViewModel.swift in Sources */,
+				3CD12F3C21109BD70060B4D2 /* UICollectionView+extension.swift in Sources */,
+				3C396628210C0D8D009BE405 /* TouristSiteTableViewCell.swift in Sources */,
+				3CC5682421078AC900596CDF /* Queue.swift in Sources */,
+				3CC5682121078A9100596CDF /* UIViewController+extension.swift in Sources */,
+				3C1F1F29210B221800175535 /* HomePresenter.swift in Sources */,
+				3CA78F3E2114093200A2501C /* AlertHelper.swift in Sources */,
+				3CC5681D210788BE00596CDF /* UITableView+extension.swift in Sources */,
+				3CC5681F210788EA00596CDF /* NSObject+extension.swift in Sources */,
+				3C1F1F3A210B27AC00175535 /* HomeInteractorOutput.swift in Sources */,
+				3CC567F821076CD200596CDF /* Disctionary+extension.swift in Sources */,
+				3CC56817210787AB00596CDF /* UILabel+extension.swift in Sources */,
+				3CA78F4021140F5C00A2501C /* AnalyticConfig.swift in Sources */,
+				3C1F1F38210B279800175535 /* HomeInteractorInput.swift in Sources */,
+				3C39662D210C0E63009BE405 /* AppConfig.swift in Sources */,
+				3CD12F3E21109F380060B4D2 /* Collection+extension.swift in Sources */,
+				3C852244210B5FE20075A50D /* HomeRouter.swift in Sources */,
+				3C852246210B5FED0075A50D /* HomeRouterInput.swift in Sources */,
+				3CA78F3A211359BF00A2501C /* TouristSiteDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,12 +834,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "taipei-tourist-site-swift/Configs/taipei-tourist-site-swift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
 			};
 			name = Debug;
 		};
@@ -414,24 +887,30 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "taipei-tourist-site-swift/Configs/taipei-tourist-site-swift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		3CC567DF21074C2900596CDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F38D759D5EA7C80EF48D133 /* Pods-Dependency-taipei-tourist-site-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L9NJSH4CZ8;
 				INFOPLIST_FILE = "taipei-tourist-site-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "studio.tmaker.taipei-tourist-site-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "taipei-tourist-site-swift/Configs/taipei-tourist-site-swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,14 +918,17 @@
 		};
 		3CC567E021074C2900596CDF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D295104998B2B55E3146DA5 /* Pods-Dependency-taipei-tourist-site-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L9NJSH4CZ8;
 				INFOPLIST_FILE = "taipei-tourist-site-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "studio.tmaker.taipei-tourist-site-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "taipei-tourist-site-swift/Configs/taipei-tourist-site-swift-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,6 +936,7 @@
 		};
 		3CC567E221074C2900596CDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AAB38FDD5FE020324915B16 /* Pods-taipei-tourist-site-swiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +954,7 @@
 		};
 		3CC567E321074C2900596CDF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A93AD8E2E9EACEC236C0EB0C /* Pods-taipei-tourist-site-swiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +972,7 @@
 		};
 		3CC567E521074C2900596CDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8739FBDC7FC4D8E65B558C8F /* Pods-taipei-tourist-site-swiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +989,7 @@
 		};
 		3CC567E621074C2900596CDF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 042FFB07D8BB909A4788B9D0 /* Pods-taipei-tourist-site-swiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
