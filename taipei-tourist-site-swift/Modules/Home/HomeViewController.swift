@@ -82,7 +82,7 @@ public class HomeViewController: UIViewController {
     
     deinit {
         if let topPullToRefresh = tableView.topPullToRefresh {
-            tableView.removePullToRefresh(topPullToRefresh)
+            tableView.removePullToRefresh(at: .top)
         }
     }
 }

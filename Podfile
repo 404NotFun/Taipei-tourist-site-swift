@@ -25,7 +25,7 @@ abstract_target 'Dependency' do
     target 'taipei-tourist-site-swift' do
         use_frameworks!
         pod 'Kingfisher', '~> 3.2.4'
-        pod 'PullToRefresher', '~> 2.0'
+        pod 'PullToRefresher', '~> 3.0'
         pod 'Fabric'
         pod 'Crashlytics'
         pod 'GoogleAnalytics'
@@ -42,6 +42,7 @@ target 'taipei-tourist-site-swiftTests' do
     inherit! :search_paths
     use_frameworks!
     # Pods for testing
+    pod 'GoogleAnalytics'
     pod 'Nimble'
     pod 'Quick'
 end
@@ -50,6 +51,7 @@ target 'taipei-tourist-site-swiftUITests' do
     inherit! :search_paths
     use_frameworks!
     # Pods for testing
+    pod 'GoogleAnalytics'
 end
 
 post_install do |installer|
